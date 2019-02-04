@@ -1,6 +1,8 @@
 #### Quote Tool
 
-Clone this repository, run `npm install` and open `http://localhost:3000` in the browser
+Clone this repository and run `npm install`
+
+Run `npm start` and open `http://localhost:3000` in the browser
 
 Search for loan products by loan amount using the search bar at the top of the page
 
