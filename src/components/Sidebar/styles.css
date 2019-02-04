@@ -1,0 +1,45 @@
+.sidebar {
+  height: 100%;
+  width: 260px;
+  overflow-y: auto;
+  box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  padding: 12px 20px 12px 20px;
+}
+
+.group {
+  padding: 8px 20px;
+  text-align: left;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.group:hover:not(:disabled) {
+  background-color: #0000000a;
+  cursor: pointer;
+}
+
+.group:disabled {
+  color: grey;
+  cursor: not-allowed;
+}
+
+.group .triangle {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.option {
+  display: flex;
+  padding: 4px 38px;
+}
+
+.option:hover {
+  background-color: #0000000a;
+}
+
+.option input {
+  margin-right: 6px;
+}

@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  border-left: 1px solid #ddd;
+  padding: 10px 8px 10px 20px;
+}
+
+.wrapper .input {
+  display: flex;
+  flex: 1;
+}
+
+.wrapper .search {
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+  margin-right: 6px;
+  padding: 0 5px;
+  transform: rotate(-45deg);
+}
+
+.wrapper .search:hover {
+  color: grey;
+}

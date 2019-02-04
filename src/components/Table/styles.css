@@ -1,0 +1,82 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  /* width: 800px; */
+  margin-left: 0 auto;
+  overflow: auto;
+  flex-grow: 1 1;
+  /* order: 1;
+  display: flex;
+  flex-direction: co */
+}
+
+.table .header {
+  background-color: #fcfcfe;
+  border-bottom: 1px solid #ccc;
+}
+
+.table .header .cell {
+  position: relative;
+}
+
+.table .header .cell button {
+  padding: 10px 20px 10px 16px;
+  width: 100%;
+  text-align: right;
+  text-transform: capitalize;
+}
+
+.table .header .downArrow.cell:after {
+  content: '\2193';
+  color: grey;
+  position: absolute;
+  top: 8px;
+  right: 4px;
+}
+
+.table .header .upArrow.cell:after {
+  content: '\2191';
+  color: grey;
+  position: absolute;
+  top: 8px;
+  right: 4px;
+}
+
+.table .header .cell button:hover {
+  cursor: pointer;
+}
+
+.table .header .cell:first-of-type {
+  width: 24%;
+}
+.table .header .cell:first-of-type button {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.table .header .cell:not(:last-of-type) {
+  border-right: 1px solid #dddddd;
+}
+
+.row {
+  border-bottom: 1px solid #dddddd;
+  margin: 10px 0;
+}
+
+.row:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.row:hover {
+  background: #e4f0fe;
+}
+
+.table .row .cell {
+  padding: 10px 16px;
+  text-align: right;
+}
+
+.table .row .cell:first-of-type {
+  text-align: left;
+  padding-left: 20px;
+}
